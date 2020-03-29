@@ -1,0 +1,110 @@
+@media (max-width:940px) {
+  article {
+    height: 300px;
+    margin: 0;
+    padding: 1%;
+  }
+  article ul {
+    display: block;
+  }
+  article li {
+    width: 49%;
+    display: block;
+    float: left;
+  }
+  .libox {
+    text-align: center;
+    padding: 20px 25%;
+  }
+  article li:nth-child(1) {
+    border-radius: 6px 0 0 0;
+  }
+  article li:nth-child(2) {
+    border-radius: 0 6px 0 0;
+  }
+  article li:nth-child(4) {
+    border-radius: 0 0 6px 0;
+  }
+  article li:nth-child(5) {
+    border-radius: 0 0 6px 6px;
+  }
+
+  .list1 {
+    padding: 0 15%;
+    text-align: center;
+    float: none;
+    display: flex;
+  }
+  section {
+    display: inline-block;
+    width: 60%;
+  }
+  section li {
+    text-align: left;
+  }
+  main img {
+    position: absolute;
+    top: 720px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .mainlist {
+    position: absolute;
+    top: 1020px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .main {
+    height: 1550px;
+  }
+}
+@media (max-width:690px) {
+  main img {
+    width: 350px;
+    top: 1080px;
+  }
+  .mainlist {
+    width: 350px;
+    top:1250px;
+  }
+  .under ul {
+    display: block;
+  }
+  article {
+    margin-top: 120px;
+    height: 500px;
+  }
+  .list1 {
+    padding: 2%;
+  }
+  article li {
+    width: 99%;
+    float: none;
+    text-align: center;
+  }
+  article li:nth-child(1) {
+    border-radius: 6px 6px 0 0;
+  }
+  article li:nth-child(n+2) {
+    border-radius: 0;
+  }
+  article li:nth-child(5) {
+    border-radius: 0 0 6px 6px;
+  }
+  section ul li a {
+    line-height: 30px;
+    font-size: 13px;
+  }
+  .main {
+    height: 2050px;
+  }
+  .under ul {
+    height: 150px;
+    margin-top: 85px;
+    border-radius: 0 0 6px 6px;
+    float: left;
+    text-align: left;
+  }
+}
